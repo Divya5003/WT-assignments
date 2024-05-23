@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VIT's Learning Programs</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="container mt-5">
+    <h1>VIT's Learning Programs</h1>
+    <ul class="nav nav-tabs" role="tablist">
+      <li class="nav-item">
+        <a class="nav-link active" id="sdp-tab" data-toggle="tab" href="#sdp" role="tab" aria-controls="sdp"
+          aria-selected="true">Software Project Development (SDP)</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="edi-tab" data-toggle="tab" href="#edi" role="tab" aria-controls="edi"
+          aria-selected="false">Engineering Design & Innovation (EDI)</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="dt-tab" data-toggle="tab" href="#dt" role="tab" aria-controls="dt"
+          aria-selected="false">Design Thinking (DT)</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" id="course-projects-tab" data-toggle="tab" href="#course-projects" role="tab"
+          aria-controls="course-projects" aria-selected="false">Course Projects</a>
+      </li>
+    </ul>
+
+    <div class="tab-content">
+      <div class="tab-pane fade show active" id="sdp" role="tabpanel" aria-labelledby="sdp-tab">
+        <h3>Software Project Development (SDP)</h3>
+        <ul>
+          <li>
+            <strong>Practical Skills:</strong> SDP courses provide students with hands-on experience in the entire
+            software development
+            lifecycle. Students learn coding, project management, version control, testing, and debugging. This
+            practical knowledge makes them job-ready and valuable assets in the software industry.
+          </li>
+          <br>
+          <li>
+            <strong>Problem-Solving:</strong> Working on real-world software projects challenges students to identify
+            problems, design
+            solutions, and implement them effectively. This fosters critical thinking and problem-solving skills
+            applicable across various disciplines.
+          </li>
+          <br>
+          <li>
+            <strong>Teamwork and Communication:</strong> Developing software is often a collaborative effort. SDP
+            courses emphasize
+            teamwork, communication, and conflict resolution as students collaborate on projects. These skills are
+            essential for success in any professional setting.
+          </li>
+        </ul>
+      </div>
+      <div class="tab-pane fade" id="edi" role="tabpanel" aria-labelledby="edi-tab">
+        <h3>Engineering Design & Innovation (EDI)</h3>
+        <ul>
+          <li>
+            <strong>Creativity and Innovation:</strong> EDI courses focus on fostering creativity and
+            innovation in aspiring engineers. Students learn design thinking methodologies, user-centered design
+            principles, and prototyping techniques. This equips them to develop innovative solutions to real-world
+            engineering challenges.
+          </li>
+          <br>
+          <li>
+            <strong>Technical Expertise:</strong> EDI programs often delve into specific engineering
+            tools and software used in design and analysis. Students gain proficiency in these tools, further enhancing
+            their problem-solving capabilities and technical skillset.
+          </li>
+          <br>
+          <li>
+            <strong>Adaptability and Future-Proofing:</strong> The engineering landscape is
+            constantly evolving. EDI programs help students develop adaptability and a problem-solving mindset. They
+            learn to approach challenges with critical thinking and embrace new technologies.
+          </li>
+        </ul>
+      </div>
+      <div class="tab-pane fade" id="dt" role="tabpanel" aria-labelledby="dt-tab">
+        <h3>Design Thinking (DT)</h3>
+        <ul>
+          <li>
+            <strong>Empathy and User-Centricity:</strong> DT trains students to approach problems from
+            the user's perspective. They learn to empathize with users, understand their needs, and design solutions
+            that address them effectively. This user-centric approach is valuable for any field, not just design.
+          </li>
+          <br>
+          <li>
+            <strong>Creative Problem-solving:</strong> DT methodologies emphasize iterative
+            problem-solving. Students learn to brainstorm ideas, prototype solutions, test them with users, and iterate
+            based on feedback. This fosters a creative and adaptable approach to tackling complex challenges.
+          </li>
+          <br>
+          <li>
+            <strong>Communication and Collaboration:</strong> Effective communication and
+            collaboration are crucial for successful design thinking. Students learn to articulate their ideas clearly,
+            collaborate effectively in teams, and embrace diverse perspectives. These skills are in high demand across
+            all industries.
+          </li>
+        </ul>
+      </div>
+      <div class="tab-pane fade" id="course-projects" role="tabpanel" aria-labelledby="course-projects-tab">
+        <h3>Course Projects</h3>
+        <ul>
+          <li>
+            <strong>Applying Theoretical Knowledge:</strong> Course projects provide a platform for
+            students to apply the theoretical knowledge they gain in lectures and textbooks. This practical application
+            helps them solidify their understanding and develop deeper insights.
+          </li>
+          <br>
+          <li>
+            <strong>Independent Learning and Exploration:</strong> Course projects often allow for
+            independent research and exploration of specific topics. Students learn to manage their time, conduct
+            research, and present their findings. These skills are crucial for lifelong learning and professional
+            success.Working on real-world software projects challenges students to identify problems, design
+            solutions, and implement them effectively. This fosters critical thinking and problem-solving skills
+            applicable across various disciplines.
+          </li>
+          <br>
+          <li>
+            <strong>Showcasing Skills and Knowledge:</strong> Course projects serve as a
+            showcase for students' technical and analytical skills. They can present their projects to classmates,
+            instructors, and potential employers, demonstrating their capabilities and building a strong portfolio.
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script>
+    $(document).ready(function () {
+      $('.nav-tabs a').click(function (e) {
+        e.preventDefault();
+        $(this).tab('show');
+      });
+    });
+  </script>
+</body>
+
+</html>

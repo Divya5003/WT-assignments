@@ -1,0 +1,44 @@
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+h3{
+    color: rosybrown;
+}
+
+strong{
+    color: lightpink
+}
+
+.page{
+    position: fixed;
+    bottom: 0;
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.heading{
+    margin: 16px;
+    color: rosybrown;
+}
+
+.content{
+    display: grid;
+    grid: auto / auto auto auto;
+    padding: 16px;
+}
+
+.cell{
+    padding: 24px;
+    box-shadow: 5px 10px 8px #888888;
+}
